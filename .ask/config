@@ -1,0 +1,55 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.da64e2fa-2af9-4b5a-ae79-f10d086c6db6",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "arn:aws:lambda:us-east-1:321808209903:function:ask-custom-white_label_radio-default"
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "manifest": {
+          "eTag": "62b5c7947c5b8ee2f89f8f0ed7fd6fb7"
+        },
+        "interactionModel": {
+          "en-AU": {
+            "eTag": "4ea6113c442c3253d69233398c55929a"
+          },
+          "en-CA": {
+            "eTag": "308e5720fcb18530c5c7a2d2a1f1507d"
+          },
+          "en-IN": {
+            "eTag": "bad5ef95528690b1515242882c3758b2"
+          },
+          "en-US": {
+            "eTag": "0f8d1f5358d36f5732607569044f8694"
+          },
+          "en-GB": {
+            "eTag": "f169d14be992ea223a56e45b66ce3041"
+          }
+        },
+        "lambda": [
+          {
+            "alexaUsage": [
+              "custom/default"
+            ],
+            "arn": "arn:aws:lambda:us-east-1:321808209903:function:ask-custom-white_label_radio-default",
+            "awsRegion": "us-east-1",
+            "codeUri": "lambda",
+            "functionName": "ask-custom-white_label_radio-default",
+            "handler": "index.handler",
+            "revisionId": "7d199745-a305-4d18-94bb-7e8e006835d6",
+            "runtime": "nodejs10.x"
+          }
+        ]
+      }
+    }
+  }
+}
