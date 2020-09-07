@@ -8,6 +8,7 @@ import { AudioHandler } from './AudioHandlers';
 import { RadioRequestHandler } from './utils/RadioRequestHandler';
 import { SkillEventHandler } from './SkillEventHandler';
 import { CheckAudioInterfaceHandler } from './CanPlayAudioCheck';
+import { YoursTrulyRequestHandler } from './YoursTrulyHandler';
 
 import { Constants } from './Constants';
 
@@ -17,6 +18,7 @@ export async function handler(event: RequestEnvelope, context: any, callback: an
         .addRequestHandlers(
             CheckAudioInterfaceHandler,
             new SkillEventHandler(),
+            new YoursTrulyRequestHandler(),
             RadioRequestHandler.builder()
                 .withHandlers(IntentHandler)
                 .withHandlers(AudioHandler)

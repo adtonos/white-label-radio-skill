@@ -106,7 +106,17 @@
       }
     },
     "manifestVersion": "1.0",
-    "permissions": [],
+    "permissions": [
+      {
+        "name": "alexa::devices:all:geolocation:read"
+      },
+      {
+        "name": "alexa::profile:email:read"
+      },
+      {
+        "name": "alexa:devices:all:address:country_and_postal_code:read"
+      }
+    ],
     "privacyAndCompliance": {
       "allowsPurchases": false,
       "isExportCompliant": true,
