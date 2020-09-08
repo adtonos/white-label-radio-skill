@@ -15,7 +15,8 @@ export class YoursTrulyRequestHandler implements RequestHandler {
     return (
       targetHandlerName.startsWith('YoursTruly') ||
       targetHandlerName.endsWith('YesIntent') ||
-      targetHandlerName.endsWith('NoIntent')
+      targetHandlerName.endsWith('NoIntent') ||
+      targetHandlerName.endsWith('ResumeIntent')
     );
   }
 
