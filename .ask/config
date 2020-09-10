@@ -20,19 +20,19 @@
         },
         "interactionModel": {
           "en-AU": {
-            "eTag": "1a3bbc8c03e8256b255db7179292a164"
+            "eTag": "9590d544e5970715f64a09786756290a"
           },
           "en-CA": {
-            "eTag": "6362210144fcac822225d6fb31b98e88"
+            "eTag": "a0c1f696d73733f968bdf7b98f5e66f1"
           },
           "en-IN": {
-            "eTag": "016406c35dd3801f5fc73420699a952a"
+            "eTag": "e75ced998b33a2eea5cf2fc151553374"
           },
           "en-US": {
-            "eTag": "ac74271cee4f60baf7a3824e266aafd3"
+            "eTag": "4c69dbfb5c225bd40c0696312de10ca8"
           },
           "en-GB": {
-            "eTag": "1003e360e2d73524fcf4e314c549dfac"
+            "eTag": "07ebdc7c927057ecaa9632f0ed7efea5"
           }
         },
         "lambda": [
@@ -45,7 +45,7 @@
             "codeUri": "lambda",
             "functionName": "ask-custom-white_label_radio-default",
             "handler": "index.handler",
-            "revisionId": "4d344be5-60f8-4970-a358-5f12647aea07",
+            "revisionId": "47a6e117-5a03-4288-a30a-1179e00a6bd0"
             "runtime": "nodejs10.x"
           }
         ]
